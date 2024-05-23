@@ -1,0 +1,36 @@
+HƯỚNG DẪN CHẠY DỰ ÁN: ĐỒ ÁN THỊ GIÁC MÁY TÍNH 2
+TÁC GIẢ: NGÔ VĂN ÚC
+LỚP: AI20A1A
+DATE: 18/04/2024
+TRƯỜNG ĐẠI HỌC ĐÔNG Á
+GIẢNG VIÊN: NGUYỄN SĨ THÌN
+NGÀNH TRÍ TUỆ NHÂN TẠO & KHOA HỌC DỮ LIỆU
+
+
+Để chạy dự án này cần các điệu kiện tiên quyết:
+	- python
+	- các framework và thư viện cần thiết
+	- IDE hỗ trợ (đề xuất visual studio code)
+
+
+CÁC BƯỚC TIẾN HÀNH NHƯ SAU:
+1. cài đặt các thư viện cần thiết
+	- mở terminal trong visual code
+	- di chuyển vào thư mục ../src/intrusion alert system
+	- tại đây có một file tên là requirements.txt
+	- trong terminal chạy lệnh sau: pip install -r requirements.txt
+	xong câu lệnh trên, các thư viện được cài đặt. trong quá trình chạy chương trình, nếu thiếu thư viện nào thì bổ sung thư viện đó
+	bằng cách: pip install name_library
+
+2. phải có được mật khẩu xác thực của tài khoản google người gửi
+	- truy cập link này: https://accounts.google.com/v3/signin/challenge/pwd?TL=ALv_Gf9H6I1sRzm9cPAaIYYaRx7G6Q6IRiX6hVvl3OXyVCrz0v_oafJO9t9BXGhD&cid=2&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords%3Fpli%3D1%26rapt%3DAEjHL4Oy9L76YbSES2dJTBc7epHmJ_nx8T0jKOxPqVp_XdYxxgXaEXfkuSZTUMgvqu9wyEGNla-osyLYyIlYfzOaNkHtEAKq4biQ9FHS6T2ZQHSZV0kR3t8&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords%3Fpli%3D1%26rapt%3DAEjHL4Oy9L76YbSES2dJTBc7epHmJ_nx8T0jKOxPqVp_XdYxxgXaEXfkuSZTUMgvqu9wyEGNla-osyLYyIlYfzOaNkHtEAKq4biQ9FHS6T2ZQHSZV0kR3t8&ifkv=AaSxoQxDp-2Kn4DDTf6pD2ViDCG4vLkTaUO-AI_lKXje1Cpcy6x6yUuJJ0vtjxDiKY56Aqr3ux6pSQ&osid=1&rart=ANgoxcc0kWImS5Mo4j_HCI39X7dVi8AxRozSYbQcka_KZHPRx5AwSurp_DnZtgPASapiBIOOSIjjHMNURqSxPKr5yDY6D6pcUnAVD-ii8Jvu12NaPFA9c9M&rpbg=1&service=accountsettings
+	- dùng tài khoản google cá nhân để đăng nhập, hãy tạo một app password
+	- sao chép nó vào file .env tại biến INTRUSALERTS_PASSWORD
+	- điền tên gmail người gửi (tài khoản dùng để tạo app)
+	- nhập vào gmail người nhận
+
+
+3. chạy chương trình
+	- terminal đang ở thư mục intrusion alert system
+	- chạy câu lệnh sau để khởi động chương trình: python main.py --capture_index 0
+	- hãy đợi thông báo từ mail nếu có xâm nhập!
