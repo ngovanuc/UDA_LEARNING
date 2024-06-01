@@ -1,0 +1,5 @@
+CÁC BƯỚC THỰC HIỆN DỰ ÁN NÀY NHƯ SAU:
+
+1. TẠO SPIDER
+2. XÁC ĐỊNH ĐỔI TƯỢNG DATA MUỐN CRAWL
+3. TIẾN HÀNH CRAWL

@@ -1,0 +1,4 @@
+{
+  "dataworkspace.excludedProjects": ["quanlydaotao/quanlydaotao.sqlproj"],
+  "python.analysis.typeCheckingMode": "basic"
+}

@@ -1,0 +1,7 @@
+vào trang điện máy xanh
+nhập từ khóa điện thoại
+-> ta có danh sách các điện thoại di động
+
+lấy các đường link của các điện thoại di động đó lưu vào file csv, mỗi đường link trỏ đến chi tiết một sản phẩm
+
+từ các đường link thu thập được, vào từng đường link để lấy các comment của sản phẩm đó
