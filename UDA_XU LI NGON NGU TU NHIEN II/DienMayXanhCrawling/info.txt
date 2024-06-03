@@ -1,7 +1,15 @@
-vào trang điện máy xanh
-nhập từ khóa điện thoại
+vào trang điện máy xanh, nhập từ khóa "điện thoại"
 -> ta có danh sách các điện thoại di động
 
 lấy các đường link của các điện thoại di động đó lưu vào file csv, mỗi đường link trỏ đến chi tiết một sản phẩm
 
-từ các đường link thu thập được, vào từng đường link để lấy các comment của sản phẩm đó
+từ các đường link thu thập được, vào từng đường link dẫn tới trang đánh giá để lấy các comment của sản phẩm đó
+
+
+có một cách để lấy được tất cả các đánh giá trên toàn bộ hệ thống!
+contact me if you want to know!
+
+
+CÁC CHỨC NĂNG SỚM SẼ ĐƯỢC CẬP NHẬT:
+    - bản phân tích, đánh giá, và trực quan số liệu thống kê doanh số bán hàng và đưa ra chiến lược kinh doanh
+    - đưa ra phân tích thị trường sản phẩm và hành vi người mua
